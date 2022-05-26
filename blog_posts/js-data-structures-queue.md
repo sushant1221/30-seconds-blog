@@ -35,11 +35,11 @@ class Queue {
     this.items.push(item);
   }
 
-  dequeue(item) {
+  dequeue() {
     return this.items.shift();
   }
 
-  peek(item) {
+  peek() {
     return this.items[0];
   }
 
